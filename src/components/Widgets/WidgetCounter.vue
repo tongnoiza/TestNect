@@ -1,6 +1,6 @@
 <template>
 
-	<a-card :bordered="false" class="widget-1">
+	<!-- <a-card :bordered="false" class="widget-1">
 		<a-statistic
 			:title="title"
 			:value="value"
@@ -12,7 +12,7 @@
 		>
 		</a-statistic>
 		<div class="icon" v-html="icon"></div>
-	</a-card>
+	</a-card> -->
 
 </template>
 

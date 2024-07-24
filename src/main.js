@@ -20,11 +20,13 @@ import DashboardLayout from './layouts/Dashboard.vue'
 import DashboardRTLLayout from './layouts/DashboardRTL.vue'
 import router from './router'
 // import './plugins/click-away'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 import './scss/app.scss';
 
 Vue.use(Antd);
-
+Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 
 // Adding template layouts to the vue components.
