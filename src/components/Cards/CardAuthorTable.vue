@@ -15,7 +15,8 @@
 		</template>
 		<a-table :columns="columns" :data-source="data" :pagination="false">
 			<template slot="status" slot-scope="text,record,index,column">
-					<a-button type="success" :style="{'background': record.color, 'color': 'white'}">{{record.status}}</a-button>
+				<a-radio-button :style="{'border-color': record.color}">{{record.status}}</a-radio-button>
+					<!-- <a-button type="success" :style="{'background': record.color, 'color': 'white'}">{{record.status}}</a-button> -->
 			</template>
 
 		</a-table>
